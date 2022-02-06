@@ -1,0 +1,22 @@
+.table-section {
+    width: 70rem;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    text-align: center;
+    font-family: 'Poppines', sans-serif;
+}
+
+.global-table-section {
+    width: 75rem;
+    margin: auto;
+    height: 22rem;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
