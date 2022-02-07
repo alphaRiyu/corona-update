@@ -1,3 +1,5 @@
-<div class="input-date-fields">
-</div>
-<input type="date" name='date' #date min='2020-01-22' max={{max_date}} value={{value_date}}>
+<label class="date-label" for="date">
+  {{ label_for }}
+</label>
+<input class="date-field" type="date" name='date' #date min='2020-01-22' max={{max_date}} value={{value_date}}
+  (change)="set_date($event)" required>

@@ -1,0 +1,19 @@
+.filter-button {
+    background-color: #845EC2;
+    color: rgb(226, 226, 226);
+    font-family: 'Poppines', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    transition: .1s ease-in-out;
+}
+
+.filter-button:hover {
+    background-color: #7f51c9;
+    color: white;
+}

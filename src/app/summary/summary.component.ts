@@ -21,6 +21,9 @@ export class SummaryComponent implements OnInit {
         this.obj_summary = Object.entries(data)
         this.summary = this.obj_summary[2][1]
         this.global = this.obj_summary[3][1]
+        this.global.sort((a: any, b: any) => {
+          (a > b ? 1 : -1);
+        });
       });
   }
 

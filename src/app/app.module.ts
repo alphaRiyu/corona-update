@@ -9,6 +9,9 @@ import { SummaryComponent } from './summary/summary.component';
 import { CasesComponent } from './cases/cases.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ChartCanvasComponent } from './chart-canvas/chart-canvas.component';
+import { CountryDropdownComponent } from './country-dropdown/country-dropdown.component';
+import { StatusDropdownComponent } from './status-dropdown/status-dropdown.component';
+import { FilterButtonComponent } from './filter-button/filter-button.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { ChartCanvasComponent } from './chart-canvas/chart-canvas.component';
     DateFieldComponent,
     NavigationComponent,
     routingComponents,
-    ChartCanvasComponent
+    ChartCanvasComponent,
+    CountryDropdownComponent,
+    StatusDropdownComponent,
+    FilterButtonComponent
   ],
   imports: [
     BrowserModule,

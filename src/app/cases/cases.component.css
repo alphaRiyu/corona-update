@@ -1,0 +1,40 @@
+.menu-content {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cases-table-section {
+    width: 75rem;
+    margin: auto;
+}
+
+.custom-table-cases {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    height: 22rem;
+    border: 1px solid rgb(226, 226, 226);
+}
+
+.custom-table-cases thead {
+  flex: 0 0 auto;
+}
+
+.custom-table-cases tbody {
+  flex: 1 1 auto;
+  display: block;
+  overflow-y: auto;
+}
+
+.custom-table-cases tr {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+}
+
+.custom-table-cases td {
+  font-size: .9rem;
+  align-items: center;
+}

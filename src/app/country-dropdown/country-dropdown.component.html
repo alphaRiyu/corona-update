@@ -1,0 +1,7 @@
+<label class="countries-label" for="countries">Select country:</label>
+<select class="countries-options" id="country" name="country" (change)="select_country($event)"
+  ngModel="selected_country">
+  <option *ngFor="let country of countries" value="{{ country[1]['Country'] }}">
+    {{ country[1]['Country'] }}
+  </option>
+</select>

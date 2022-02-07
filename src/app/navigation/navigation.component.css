@@ -13,9 +13,9 @@ nav {
     background-color: #4B4453;
 }
 
-nav a.active {
+/* .nav-links a.active {
     color: white;
-}
+} */
 
 .project-title a {
     color: rgb(226, 226, 226);

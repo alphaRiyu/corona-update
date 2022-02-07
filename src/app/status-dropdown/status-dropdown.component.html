@@ -1,0 +1,9 @@
+<label class="status-label" for="status">
+  Select status:
+</label>
+<select class="status-options" name="status" id="status" (change)="status_select($event)">
+  <option value="all">All</option>
+  <option value="confirmed">Confirmed</option>
+  <option value="deaths">Deaths</option>
+  <option value="recovered">Recovered</option>
+</select>
